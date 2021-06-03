@@ -1,0 +1,29 @@
+# Temporary folders #
+#####################
+temp
+template
+output
+/output
+fsh-generated/**
+template/**
+temp/**
+
+# Don't commit this because it's so large #
+###########################################
+input-cache/*
+
+# Windows generated files #
+###########################
+Thumbs.db
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+
+# backup files #
+################
+*.bak
+
+.vscode
+.idea
