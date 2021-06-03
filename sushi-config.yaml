@@ -1,0 +1,17 @@
+id: fhir.us.example
+canonical: http://hl7.org/fhir/us/example
+name: ExampleIG
+title: "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1"
+description: An example IG that exercises many of the fields in a SUSHI configuration
+status: active
+license: CC0-1.0
+version: 1.0.0
+fhirVersion: 4.0.1
+copyrightYear: 2019+
+releaseLabel: STU1
+publisher:
+  name: HL7 FHIR Management Group
+  url: http://www.hl7.org/Special/committees/fhirmg
+  email: fmg@lists.HL7.org
+dependencies:
+  hl7.fhir.us.core: 3.1.0
