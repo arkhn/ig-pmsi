@@ -1,13 +1,13 @@
 {
-  "package-id": "arkhn.fhir.uv.example",
-  "canonical": "http://fhir.arkhn.com/example",
-  "title": "Arkhn Template Implementation Guide",
-  "introduction": "The Arkhn template implementation guide",
+  "package-id": "arkhn.fhir.uv.pmsi",
+  "canonical": "http://fhir.arkhn.com/pmsi",
+  "title": "Arkhn PMSI Implementation Guide",
+  "introduction": "The PMSI implementation guide",
   "list": [
     {
       "version": "current",
       "desc": "Continuous Integration Build (latest in version control)",
-      "path": "http://build.fhir.org/ig/example/example-ig",
+      "path": "http://fhir.arkhn.com/pmsi",
       "status": "ci-build",
       "current": true
     },

@@ -3,11 +3,11 @@
 # │  supported properties, see:                                                                    │
 # │  https://fshschool.org/docs/sushi/configuration/#full-configuration                            │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: arkhn.fhir.uv.example
-canonical: http://fhir.arkhn.com/example
+id: arkhn.fhir.uv.pmsi
+canonical: http://fhir.arkhn.com/pmsi
 version: 0.1.0
-name: ArkhnTemplateImplementationGuide
-title: Arkhn Template Implementation Guide
+name: ArkhnPMSIImplementationGuide
+title: Arkhn PMSI Implementation Guide
 status: draft
 publisher:
   name: Arkhn
@@ -17,7 +17,7 @@ contact:
     telecom:
       - system: email
         value: contact@arkhn.com
-description: The Arkhn template implementation guide
+description: The Arkhn PMSI implementation guide
 license: CC0-1.0
 fhirVersion: 4.0.1
 parameters:
