@@ -3,7 +3,7 @@
 # │  supported properties, see:                                                                    │
 # │  https://fshschool.org/docs/sushi/configuration/#full-configuration                            │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: arkhn.fhir.uv.pmsi
+id: arkhn.fhir.fr.pmsi
 canonical: http://fhir.arkhn.com/pmsi
 version: 0.1.0
 name: ArkhnPMSIImplementationGuide
