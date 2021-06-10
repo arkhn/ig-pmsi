@@ -16,9 +16,9 @@ Description:    "Profil pour la ressource encounter RUM du PMSI"
 // reference to Condition resource, it should be CIM-10 coded
 * diagnosis.use MS
 // Primary or Secondary Diagnosis 
-* hospitalization.admitSource 
+* hospitalization.admitSource MS
 // Provenance (si mode d’entrée est mutation ou transfert)	
-* hospitalization.dischargeDisposition 
+* hospitalization.dischargeDisposition MS
 // Destination (si mode de sortie est mutation ou transfert)	
 * location.location MS
 // reference to pmsi-location resource?
