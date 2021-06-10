@@ -1,5 +1,5 @@
 {
-  "package-id": "arkhn.fhir.uv.pmsi",
+  "package-id": "arkhn.fhir.fr.pmsi",
   "canonical": "http://fhir.arkhn.com/pmsi",
   "title": "Arkhn PMSI Implementation Guide",
   "introduction": "The PMSI implementation guide",
