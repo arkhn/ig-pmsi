@@ -12,4 +12,4 @@ Description:    "Profil pour la ressource organization du PMSI"
 * telecom MS
 * telecom ^definition = "A contact detail for the organization."
 * address MS
-* adress ^definition = "An address for the organization."
+* address ^definition = "An address for the organization."
