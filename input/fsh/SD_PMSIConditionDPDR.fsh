@@ -4,6 +4,8 @@ Id:             pmsi-condition-dpdr
 Title:          "Unité fonctionnelle (PMSI)"
 Description:    "Profil pour la ressource condition Diagnostic Principal /Diagnostic Relié du PMSI"
 * identifier MS
+* category MS
+// Value set Condition Category: Diagnostic Principal (DP), Diagnostic Relie (DR) ou Diagnostic Associé (DAS)
 * severity MS
 // Reference to resource Observation Indice de gravité simplifié (IGS II) 
 * code MS
