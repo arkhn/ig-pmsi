@@ -5,7 +5,7 @@ Title:          "Unité fonctionnelle (PMSI)"
 Description:    "Profil pour la ressource condition Diagnostic Principal /Diagnostic Relié du PMSI"
 * identifier MS
 * severity MS
-// Indice de gravité simplifié (IGS II) https://www.atih.sante.fr/grille-de-cotation-du-score-igs2
+// Reference to resource Observation Indice de gravité simplifié (IGS II) 
 * code MS
 // Diagnostic principal (DP) ou Diagnostic relié (DR) CIM-10
 * subject MS
