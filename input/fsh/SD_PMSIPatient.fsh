@@ -29,8 +29,12 @@ Description:    "Profil pour la ressource Patient du PMSI"
 
 
 * name MS // Utilisé dans le cadre de l'identitovigilance pour vérifier l'identité d'une personne, en particulier le nom de naissance
-* gender MS // Utilisé dans le cadre de l'identitovigilance pour vérifier l'identité d'une personne
-* birthDate MS // Utilisé dans le cadre de l'identitovigilance pour vérifier l'identité d'une personne
+
+
+* gender 1..1 MS // Obligatoire: utilisé dans le cadre de l'identitovigilance pour vérifier l'identité d'une personne
+* birthDate 1..1 MS // Obligatoire: Utilisé dans le cadre de l'identitovigilance pour vérifier l'identité d'une personne
+
+
 * address MS // Code postal, lieu de résidence
 * contact.telecom MS
 * communication.language MS
