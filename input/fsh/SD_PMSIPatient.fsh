@@ -3,7 +3,31 @@ Parent:         Patient
 Id:             pmsi-patient
 Title:          "Patient (PMSI)"
 Description:    "Profil pour la ressource Patient du PMSI"
+
+
 * identifier MS // INS (NIR / NIA), 
+* identifier ^slicing.discriminator.type = #pattern
+* identifier ^slicing.discriminator.path = "system"
+* identifier ^slicing.rules = #open
+* identifier ^slicing.ordered = false   // can be omitted, since false is the default
+* identifier ^slicing.description = "Slice based on the identifier.system pattern"
+
+* identifier contains INS-NIR 0..1 MS and INS-NIA 0..1 MS
+* identifier[INS-NIR].use = #official
+* identifier[INS-NIR].system = "urn:oid:1.2.250.1.213.1.4.8"
+* identifier[INS-NIR].type.text = "Numéro d’Inscription au Répertoire"
+* identifier[INS-NIR].value 1..1
+
+
+* identifier[INS-NIA].use = #temp
+* identifier[INS-NIA].system = "urn:oid:1.2.250.1.213.1.4.9"
+* identifier[INS-NIA].type.text = "Numéro d'Identifiant d'Attente"
+* identifier[INS-NIA].value 1..1
+
+// systems from https://esante.gouv.fr/sites/default/files/media_entity/documents/asip_referentiel_identifiant_national_sante-liste-des-oid-des-autorites-d-affectation-des-ins_v0.1.pdf
+
+
+
 * name MS // Utilisé dans le cadre de l'identitovigilance pour vérifier l'identité d'une personne, en particulier le nom de naissance
 * gender MS // Utilisé dans le cadre de l'identitovigilance pour vérifier l'identité d'une personne
 * birthDate MS // Utilisé dans le cadre de l'identitovigilance pour vérifier l'identité d'une personne
