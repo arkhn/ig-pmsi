@@ -25,10 +25,10 @@ Description:    "Profil pour la ressource Patient du PMSI"
 * identifier[INS-NIA].type.text = "Numéro d'Identifiant d'Attente"
 * identifier[INS-NIA].value 1..1
 
-* identifier[INS-NIA].use = #secondary
-* identifier[INS-NIA].system = "urn:oid:1.2.250.1.213.1.4.2"
-* identifier[INS-NIA].type.text = "INS Calculé"
-* identifier[INS-NIA].value 1..1
+* identifier[INS-C].use = #secondary
+* identifier[INS-C].system = "urn:oid:1.2.250.1.213.1.4.2"
+* identifier[INS-C].type.text = "INS Calculé"
+* identifier[INS-C].value 1..1
 
 // systems from https://esante.gouv.fr/sites/default/files/media_entity/documents/asip_referentiel_identifiant_national_sante-liste-des-oid-des-autorites-d-affectation-des-ins_v0.1.pdf
 
