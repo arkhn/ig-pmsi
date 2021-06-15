@@ -15,6 +15,7 @@ Description:    "Profil pour la ressource Patient du PMSI"
 * identifier contains INS-NIR 0..1 MS 
                 and INS-NIA 0..1 MS
                 and INS-C 0..1 MS
+                and IPP 0..1 MS
 * identifier[INS-NIR].use = #official
 * identifier[INS-NIR].system = "urn:oid:1.2.250.1.213.1.4.8"
 * identifier[INS-NIR].type.text = "Numéro d’Inscription au Répertoire"
@@ -29,6 +30,10 @@ Description:    "Profil pour la ressource Patient du PMSI"
 * identifier[INS-C].system = "urn:oid:1.2.250.1.213.1.4.2"
 * identifier[INS-C].type.text = "INS Calculé"
 * identifier[INS-C].value 1..1
+
+* identifier[IPP].use = #usual
+* identifier[IPP].type.text = "Identifiant Permanent du Patient"
+* identifier[IPP].value 1..1
 
 // systems from https://esante.gouv.fr/sites/default/files/media_entity/documents/asip_referentiel_identifiant_national_sante-liste-des-oid-des-autorites-d-affectation-des-ins_v0.1.pdf
 
