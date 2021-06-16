@@ -1,7 +1,7 @@
 Profile:        PMSIConditionDPDR
 Parent:         Condition
 Id:             pmsi-condition-dpdr
-Title:          "Condition (PMSI)"
+Title:          "Diagnostic (PMSI)"
 Description:    "Profil pour la ressource condition Diagnostic Principal /Diagnostic Relié du PMSI"
 * identifier MS
 * category MS
