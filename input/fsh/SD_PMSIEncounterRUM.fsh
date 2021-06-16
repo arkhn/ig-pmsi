@@ -1,7 +1,7 @@
 Profile:        PMSIEncounterRUM
 Parent:         Encounter
 Id:             pmsi-encounter-rum
-Title:          "Unité fonctionnelle (PMSI)"
+Title:          "Encounter RUM (PMSI)"
 Description:    "Profil pour la ressource encounter RUM du PMSI"
 * identifier MS
 * class MS
