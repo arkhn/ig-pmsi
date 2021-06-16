@@ -16,6 +16,7 @@ Description:    "Profil pour la ressource Patient du PMSI"
                 and INS-NIA 0..1 MS
                 and INS-C 0..1 MS
                 and IPP 0..1 MS
+
 * identifier[INS-NIR].use = #official
 * identifier[INS-NIR].system = "urn:oid:1.2.250.1.213.1.4.8"
 * identifier[INS-NIR].type.text = "Numéro d’Inscription au Répertoire"
@@ -37,20 +38,21 @@ Description:    "Profil pour la ressource Patient du PMSI"
 
 // systems from https://esante.gouv.fr/sites/default/files/media_entity/documents/asip_referentiel_identifiant_national_sante-liste-des-oid-des-autorites-d-affectation-des-ins_v0.1.pdf
 
-
-
 * name MS // Utilisé dans le cadre de l'identitovigilance pour vérifier l'identité d'une personne, en particulier le nom de naissance
-
 
 * gender 1..1 MS // Obligatoire: utilisé dans le cadre de l'identitovigilance pour vérifier l'identité d'une personne
 * birthDate 1..1 MS // Obligatoire: Utilisé dans le cadre de l'identitovigilance pour vérifier l'identité d'une personne
-
-
 * address MS // Code postal, lieu de résidence
+
+
 * contact.telecom MS
 * communication.language MS
 * generalPractitioner MS
 
+// TODO: French name, French address,... 
+// PMSI : identifiant calculé
+// Rajouter une description pour indiquer les champs indispensables au calcul de l'INS-C, rm 1.., 
+// Slice TMP ?
 
 // A considérer : poids, taille, pathologies, traitements...
 
