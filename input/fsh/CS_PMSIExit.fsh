@@ -1,0 +1,22 @@
+CodeSystem: ExitCS
+Id: ExitCS
+Title: "PMSI patient hospital discharge source"
+Description: "Custom code from PMSI hospital discharge source"
+
+* #1	"Pour prestation de soins dans une unité de soins de courte durée d'un autre établissement"
+* #2	"Pour prestation de soins dans une unité de soins de suite et de réadaptation d'un autre établissement"
+* #3	"Pour prestation de soins dans une unité de soins de longue durée d'un autre établissement"
+* #4	"Pour prestation de soins dans une unité de soins de psychiatrie d'un autre établissement"
+* #61	"Par mutation vers une unité de soins de courte durée"
+* #62	"Par mutation vers une unité de soins de suite ou de réadaptation"
+* #63	"Par mutation vers une unité de soins de longue durée"
+* #64	"Par mutation vers une unité de psychiatrie"
+* #66	"Par mutation vers une unité d'hospitalisation à domicile"
+* #71	"Par transfert vers une unité de soins de courte durée"
+* #72	"Par transfert vers une unité de soins de suite ou de réadaptation"
+* #73	"Par transfert vers une unité de soins de longue durée"
+* #74	"Par transfert vers une unité de psychiatrie"
+* #76	"Par transfert vers une unité d'hospitalisation à domicile"
+* #8	"Vers le domicile"
+* #87	"Vers une structure d'hébergement médico-sociale"
+* #9	"Par décès"
