@@ -3,6 +3,7 @@
   <div xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../fhir-single.xsd">
     <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
+    <a name="Introduction"></a>
     <h3>Introduction</h3>
     <p>	
     This implementation guide has been developped by Arkhn to modelize the french PMSI (Programme de Médicalisation des Systèmes d'Information).
@@ -12,26 +13,8 @@
     <p>	
     This implementation guide develops FHIR profiles, that add restrictions to the original FHIR resources to be interoperable on the way to modelize the PMSI on FHIR.
     The French PMSI has been developped to collect and analyze medical data, and to facilitate the budgetary allocation of french hospitals.
-
     </p>
-    <a name="walkthrough"></a>
-    <p>	
-    The main sections of this IG are:	
-    </p>
-    <ul>
-      <li>
-        <a href="background.html">Background</a>
-        - provides business context for the implementation guide and information that implementers should be	
-      familiar with before reading the remainder of the IG.  There could be multiple pages for this.
-      </li>
-      <li>
-        <a href="spec.html">Detailed Specification</a>
-        - The actual stuff implementers are expected to do.  (Could be multiple pages for this.)
-      </li>
-      <li>
-        <a href="downloads.html">Downloads</a>
-        - Allows downloading a copy of this implementation guide and other useful information
-      </li>
-    </ul>
+    
+    This implementation guide can be <a href="downloads.html">downloaded here</a> as a npm package or as a copy of the entire specification.
   </div>
 </div>
