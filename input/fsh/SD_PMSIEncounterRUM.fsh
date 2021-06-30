@@ -26,7 +26,7 @@ Description:    "Profil pour la ressource encounter RUM du PMSI"
 * hospitalization.dischargeDisposition from PMSIMovementExit (required)
 // Destination (si mode de sortie est mutation ou transfert)	
 * location.location MS
-//location.location only Reference(Unite médicale) (required)
+// TODO add ref to unité médicale (UM)profile
 // reference to pmsi-location resource?
 * serviceProvider MS
 // Reference to location Unité Médical (UM)
