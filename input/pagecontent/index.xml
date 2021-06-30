@@ -16,5 +16,27 @@
     </p>
     
     This implementation guide can be <a href="downloads.html">downloaded here</a> as a npm package or as a copy of the entire specification.
+
+
+    <a name="sources"></a>
+    <h3>Sources</h3>
+    <ul>
+      <li>
+        <a href="https://solidarites-sante.gouv.fr/IMG/pdf/rniv_0_points_essentiels_v1.0_-_decembre_2020.pdf">Référentiel national d'identitovigilance</a>
+        - indicates how to identify a patient
+      </li>
+      <li>
+        <a href="https://esante.gouv.fr/interoperabilite/mos-nos">Modèles et Nomenclatures des Objects de santé (MOS-NOS)</a>
+        - Proposes a datamodel and terminologies for health data
+      </li>
+      <li>
+        <a href="https://www.atih.sante.fr/formats-pmsi-2020">PMSI</a>
+        - Official documentation about the PMSI
+      </li>
+      <li>
+        <a href="https://www.atih.sante.fr/sites/default/files/public/content/3735/mco_2020_bis_version_provisoire_3.pdf">PMSI MCO</a>
+        - Official documentation about the PMSI MCO (Médecine Chirurgie Obstétrique)
+      </li>
+    </ul>
   </div>
 </div>
