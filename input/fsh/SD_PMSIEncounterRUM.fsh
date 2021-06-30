@@ -7,7 +7,8 @@ Description:    "Profil pour la ressource encounter RUM du PMSI"
 * class MS
 // codes from https://www.atih.sante.fr/codes-mouvements specifiying patient moves
 * type MS
-// codes from https://www.ameli.fr/accueil-de-la-ccam/trouver-un-acte/consultation-par-chapitre.php
+* type from PMSIModeEntryCS (required)
+
 * subject MS
 // reference to Patient resource
 * period MS

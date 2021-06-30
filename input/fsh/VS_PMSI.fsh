@@ -49,3 +49,13 @@ Description: "PMSI patient movement (sortie) codes"
 * ExitCS#8	"Vers le domicile"
 * ExitCS#87	"Vers une structure d'hébergement médico-sociale"
 * ExitCS#9	"Par décès"
+
+
+ValueSet: PMSIModeEntryCS
+Title: "PMSI Mode d'entré"
+Description: "PMSI Mode d'entrée dans l'unité médicale"
+* ModeEntryCS#6  "Mutation"
+* ModeEntryCS#7  "Transfert définitif"
+* ModeEntryCS#0  "Transfert provisoire"
+* ModeEntryCS#8  "Domicile"
+* ModeEntryCS#N  "Naissance"
