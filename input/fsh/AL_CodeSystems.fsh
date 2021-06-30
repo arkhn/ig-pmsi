@@ -8,4 +8,4 @@ Alias:   RECIST = https://project.eortc.org/recist
 Alias:   MEDDRA = http://terminology.hl7.org/CodeSystem/mdr
 Alias:   PMSICS = http://fhir.arkhn.com/pmsi/CodeSystem/PMSICS
 Alias:   FINESS = http://fhir.arkhn.com/finess
-Alias:   CIM-10 = http://fhir.arkhn.com/CIM-10
+Alias:   CIM-10 = http://hl7.org/fhir/sid/icd-10-fr

@@ -22,13 +22,15 @@ Description:    "Profil pour la ressource condition Diagnostic Principal /Diagno
 // Reference to resource Observation Indice de gravité simplifié (IGS II) 
 
 * code MS
-* code ^definition = "Code from CIM-10 for PMSI use defined by AITH"
-* code from CIM-10
+* code ^definition = "Code from CIM-10 for PMSI use defined by ATIH"
+* code from CIM-10 (required)
+* code 1..1
 
 
 * subject MS
 // Reference to Patient resource
 * subject only Reference(PMSIPatient)
+* subject 1..1
 
 * encounter MS
 //Reference to resource: résumé de sortie standardisé (RSS) ou  (RUM)?
