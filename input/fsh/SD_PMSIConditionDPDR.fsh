@@ -23,7 +23,7 @@ Description:    "Profil pour la ressource condition Diagnostic Principal /Diagno
 
 * code MS
 * code ^definition = "Code from CIM-10 for PMSI use defined by ATIH"
-* code from CIM-10 (required)
+* code from ICD10FR (required)
 * code 1..1
 
 
