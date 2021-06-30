@@ -6,16 +6,19 @@
     <a name="Introduction"></a>
     <h3>Introduction</h3>
     <p>	
-    This implementation guide has been developped by Arkhn to modelize the french PMSI (Programme de Médicalisation des Systèmes d'Information).
-    The French PMSI has been developped to collect and analyze medical data, and to facilitate the budgetary allocation of french hospitals.
-    It is based on the <a href="https://www.who.int/standards/classifications/classification-of-diseases">ICD-10</a> and <a href="https://www.ameli.fr/accueil-de-la-ccam/index.php">CCAM (Classification Commune des Actes de Maladies</a> terminologies.
+    This implementation guide has been developped by Arkhn to modelize the french PMSI (Programme de Médicalisation des Systèmes d'Information).<br></br>
+      <br></br>
+
+    The French PMSI is in use since 1991 and mandatory since 1996, its goal is to collect and analyze medical data, and to facilitate the budgetary allocation of french hospitals. Since 2005, the PMSI is used in the context of the T2A (tarification à l'activité).
+    The system is based on the <a href="https://www.who.int/standards/classifications/classification-of-diseases">ICD-10</a> and <a href="https://www.ameli.fr/accueil-de-la-ccam/index.php">CCAM (Classification Commune des Actes de Maladies</a> terminologies.
     </p>
     <a name="technical"></a>
     <h3>Technical Overview</h3>
     <p>	
-    This implementation guide develops FHIR profiles, that add restrictions to the original FHIR resources to be interoperable on the way to modelize the PMSI on FHIR.
+    This implementation guide contains FHIR profiles, that add restrictions to the original FHIR resources to be interoperable on the way to modelize the PMSI on FHIR.<br></br>
     The areas covered by this spec are: Diagnosis, Hospitals and Services, Patient and Admissions.
-
+      <br></br>
+      <br></br>
     This implementation guide can be <a href="downloads.html">downloaded here</a> as a npm package or as a copy of the entire specification.
     </p>
 
