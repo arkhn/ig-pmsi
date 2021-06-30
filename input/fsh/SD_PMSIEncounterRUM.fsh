@@ -16,18 +16,18 @@ Description:    "Profil pour la ressource encounter RUM du PMSI"
 * diagnosis.condition only Reference(PMSIConditionDPDR)
 // reference to Condition resource, it should be CIM-10 coded
 * diagnosis.use MS
-* diagnosis.use from PMSIDiagnosis
+* diagnosis.use from PMSIDiagnosis (required)
 // Primary or Secondary Diagnosis (code systeme diagnostic DPDSDAS)
 * hospitalization.admitSource MS
-* hospitalization.admitSource from PMSIMovementEntry
+* hospitalization.admitSource from PMSIMovementEntry (required)
 // Provenance (si mode d’entrée est mutation ou transfert)	
 * hospitalization.dischargeDisposition MS
-* hospitalization.dischargeDisposition from PMSIMovementExit
+* hospitalization.dischargeDisposition from PMSIMovementExit (required)
 // Destination (si mode de sortie est mutation ou transfert)	
 * location.location MS
-* location.location only Reference(PMSILocation)
+//location.location only Reference(Unite médicale) (required)
 // reference to pmsi-location resource?
 * serviceProvider MS
 // Reference to location Unité Médical (UM)
 * partOf MS
-//Reference to resource encounter: résumé de sortie standardisé (RSS)
+//TODO: Reference to resource encounter: résumé de sortie standardisé (RSS)

@@ -1,0 +1,22 @@
+CodeSystem: EntryCS
+Id: EntryCS
+Title: "PMSI patient hospital admission source"
+Description: "Custom code from PMSI hospital admission source"
+
+* #1	"Retour prestation de soins dans une unité de soins de courte durée d'un autre établissement"
+* #2	"Retour prestation de soins dans une unité de soins de suite et de réadaptation d'un autre établissement"
+* #3	"Retour prestation de soins dans une unité de soins de longue durée d'un autre établissement"
+* #4	"Retour prestation de soins dans une unité de soins de psychiatrie d'un autre établissement"
+* #61	"Par mutation depuis une unité de soins de courte durée"
+* #62	"Par mutation depuis une unité de soins de suite ou de réadaptation"
+* #63	"Par mutation depuis une unité de soins de longue durée"
+* #64	"Par mutation depuis une unité de psychiatrie"
+* #66	"Par mutation depuis une unité d'hospitalisation à domicile"
+* #71	"Par transfert depuis une unité de soins de courte durée"
+* #72	"Par transfert depuis une unité de soins de suite ou de réadaptation"
+* #73	"Par transfert depuis une unité de soins de longue durée"
+* #74	"Par transfert depuis une unité de psychiatrie"
+* #76	"Par transfert depuis une unité d'hospitalisation à domicile"
+* #8	"Du domicile"
+* #85	"Avec passage par le service d'accueil des urgences"
+* #87	"D'une structure d'hébergement médico-sociale"
