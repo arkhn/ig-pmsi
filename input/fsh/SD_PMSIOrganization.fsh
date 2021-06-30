@@ -21,10 +21,13 @@ Description:    "Profil pour la ressource organization du PMSI"
 
 * type MS
 * type ^definition = "The kind(s) of organization that this is."
-// https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/
+* include codes from system "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite/TRE_R02-SecteurActivite-FHIR.json"
+
 * name MS
 * name ^definition = "A name associated with the organization."
 * telecom MS
 * telecom ^definition = "A contact detail for the organization."
 * address MS
 * address ^definition = "An address for the organization."
+* partOf 
+* partOf ^definition = "The organization of which this organization forms a part."
