@@ -6,11 +6,11 @@
     <a name="Introduction"></a>
     <h3>Introduction</h3>
     <p>	
-    This implementation guide has been developped by Arkhn to modelize the french PMSI (Programme de Médicalisation des Systèmes d'Information).<br></br>
+    This implementation guide has been developped by Arkhn to modelize the French PMSI (Programme de Médicalisation des Systèmes d'Information).<br></br>
       <br></br>
 
-    The French PMSI is in use since 1991 and mandatory since 1996, its goal is to collect and analyze medical data, and to facilitate the budgetary allocation of french hospitals. Since 2005, the PMSI is used in the context of the T2A (tarification à l'activité).
-    The system is based on the <a href="https://www.who.int/standards/classifications/classification-of-diseases">ICD-10</a> and <a href="https://www.ameli.fr/accueil-de-la-ccam/index.php">CCAM (Classification Commune des Actes de Maladies</a> terminologies.
+    The French PMSI is in use since 1991 and mandatory since 1996, its goal is to collect and analyze medical data, and to facilitate the budgetary allocation of French hospitals. Since 2005, the PMSI is used in the context of the T2A (tarification à l'activité).
+    The system is based on the <a href="https://www.who.int/standards/classifications/classification-of-diseases">ICD-10</a> and <a href="https://www.ameli.fr/accueil-de-la-ccam/index.php">CCAM (Classification Commune des Actes de Maladies)</a> terminologies.
     </p>
     <a name="technical"></a>
     <h3>Technical Overview</h3>
