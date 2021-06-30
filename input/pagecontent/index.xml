@@ -1,23 +1,26 @@
-<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
-  <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../fhir-single.xsd">
+<div xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+  <div xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../fhir-single.xsd">
     <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
     <h3>Background</h3>
     <a name="intro"></a>
     <p> introduction </p>
     <h3>Introduction</h3>
     <p>	
-    This is the arkhn template for IG development	
-  </p>
+    This implementation guide has been developped by Arkhn to modelize the french PMSI (Programme de Médicalisation des Systèmes d'Information).
+    </p>
     <a name="technical"></a>
     <h3>Technical Overview</h3>
     <p>	
-    Additional detail/context setting for those who have significant background in the domain.  (Try to make as understandable as you can, but	
-    set important context).	
-  </p>
+    This implementation guide develops FHIR profiles, that add restrictions to the original FHIR resources to be interoperable on the way to modelize the PMSI on FHIR.
+    The French PMSI has been developped to collect and analyze medical data, and to facilitate the budgetary allocation of french hospitals.
+
+    </p>
     <a name="walkthrough"></a>
     <p>	
     The main sections of this IG are:	
-  </p>
+    </p>
     <ul>
       <li>
         <a href="background.html">Background</a>
