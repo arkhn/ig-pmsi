@@ -18,3 +18,4 @@ jobs:
         run: sushi .
       - name: Check version change
         run: exit $([ -z "$(git diff package-list.json | grep version)" ] && echo 1 || echo 0)
+        run: exit $([ -z "$(git diff sushi-config.yaml | grep version)" ] && echo 1 || echo 0)
