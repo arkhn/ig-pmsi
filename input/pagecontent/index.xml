@@ -21,7 +21,7 @@
       <br></br>
     This implementation guide can be <a href="downloads.html">downloaded here</a> as a npm package or as a copy of the entire specification.
     </p>
-    <img width="1000" src="/Users/elenamylonas/Desktop/Operation/ig-pmsi/input/images/PMSI_STRUCTURE.png" alt="pmsi_rum"/>
+    <img width="1000" src="PMSI_STRUCTURE.png" alt="pmsi_rum"/>
     <a name="sources"></a>
     <h3>Sources</h3>
     <ul>
