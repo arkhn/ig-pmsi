@@ -14,14 +14,15 @@ Description:    "Profil pour la ressource organization du PMSI"
 * identifier contains
     FinessEJ 0..1 and
     FinessEG 0..1 
-* identifier[FinessEJ].type.text = "FINESS Juridique" // Binding URI Finess juridique
-* identifier[FinessEJ].system = "http://fhir.arkhn.com/FinessEJ"
-* identifier[FinessEG].type.text = "FINESS Géographique" // Binding URI Finess géographique
-* identifier[FinessEG].system = "http://fhir.arkhn.com/FinessEG"
+* identifier[FinessEJ].type.text = "FINESS Juridique" 
+* identifier[FinessEJ].system = "http://fhir.arkhn.com/FinessEJ" // Temporary, should be binded with URI finess juridique
+* identifier[FinessEG].type.text = "FINESS Géographique" 
+* identifier[FinessEG].system = "http://fhir.arkhn.com/FinessEG" // Temporary, should be binded with URI finess geographique
 
 * type MS
 * type ^definition = "The kind(s) of organization that this is."
-* include codes from system "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite/TRE_R02-SecteurActivite-FHIR.json"
+* type from CAT (required) 
+* type 1..1 
 
 * name MS
 * name ^definition = "A name associated with the organization."
@@ -29,5 +30,5 @@ Description:    "Profil pour la ressource organization du PMSI"
 * telecom ^definition = "A contact detail for the organization."
 * address MS
 * address ^definition = "An address for the organization."
-* partOf 
+* partOf MS
 * partOf ^definition = "The organization of which this organization forms a part."
