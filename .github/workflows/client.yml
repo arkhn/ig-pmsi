@@ -16,6 +16,7 @@ jobs:
         run: npm install -g fsh-sushi
       - name: Run sushi
         run: sushi .
-      - name: Check version change
-        run: exit $([ -z "$(git diff package-list.json | grep version)" ] && echo 1 || echo 0)
+      - name: Check version change on package-list
+        run: exit $([ ! -z "$(git diff package-list.json | grep version)" ] && echo 1 || echo 0)
+      - name: Check version change on sushi-config
         run: exit $([ -z "$(git diff sushi-config.yaml | grep version)" ] && echo 1 || echo 0)
