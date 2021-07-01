@@ -17,4 +17,4 @@ jobs:
       - name: Run sushi
         run: sushi .
       - name: Check version change
-        run: echo $([ -z "$(git diff package-list.json | grep version)" ] && echo 0 || echo 1)
+        run: echo $([ -z "$(git diff package-list.json | grep version)" ] && echo 1 || echo 0)
