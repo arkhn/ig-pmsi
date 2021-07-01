@@ -16,3 +16,5 @@ jobs:
         run: npm install -g fsh-sushi
       - name: Run sushi
         run: sushi .
+      - name: Check version change
+        run: [ git diff package-list.json = "" ] && echo 0 || echo 1
