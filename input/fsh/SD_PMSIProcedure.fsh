@@ -16,8 +16,10 @@ pour le domaine de la santé, séance du 14 juin 2001).» (source : 'https://www
 * identifier MS
 * category MS
 // Fix value Procedure Category: CCAM Classification Commune des Actes Médicaux
-* category.coding.code = #CCAM
-* category.coding.display = "Classification Commune de Actes Médicaux"
+//* category.coding.code = #CCAM
+//* category.coding.display = "Classification Commune de Actes Médicaux"
+* category ^short = "CCAM"
+* category from PSMIActeMedical (required)
 
 * code MS
 // Value set for Code : Code CCAM 
