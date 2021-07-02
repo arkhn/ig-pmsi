@@ -9,8 +9,8 @@ Description: "PMSI diagnosis codes"
 
 
 ValueSet: PMSIMovementEntry
-Title: "PMSI movement Admission"
-Description: "PMSI patient movement (admission) codes"
+Title: "PMSI type de mouvement d'entrée"
+Description: "PMSI codes pour le type de mouvement d'entrée'"
 * EntryCS#1	"Retour prestation de soins dans une unité de soins de courte durée d'un autre établissement"
 * EntryCS#2	"Retour prestation de soins dans une unité de soins de suite et de réadaptation d'un autre établissement"
 * EntryCS#3	"Retour prestation de soins dans une unité de soins de longue durée d'un autre établissement"
@@ -30,8 +30,8 @@ Description: "PMSI patient movement (admission) codes"
 * EntryCS#87	"D'une structure d'hébergement médico-sociale"
 
 ValueSet: PMSIMovementExit
-Title: "PMSI movement Sortie"
-Description: "PMSI patient movement (sortie) codes"
+Title: "PMSI type de mouvement de Sortie"
+Description: "PMSI codes pour le type de mouvement de Sortie"
 * ExitCS#1	"Pour prestation de soins dans une unité de soins de courte durée d'un autre établissement"
 * ExitCS#2	"Pour prestation de soins dans une unité de soins de suite et de réadaptation d'un autre établissement"
 * ExitCS#3	"Pour prestation de soins dans une unité de soins de longue durée d'un autre établissement"
@@ -52,7 +52,7 @@ Description: "PMSI patient movement (sortie) codes"
 
 
 ValueSet: PMSIModeEntryCS
-Title: "PMSI Mode d'entré"
+Title: "PMSI Mode d'entrée"
 Description: "PMSI Mode d'entrée dans l'unité médicale"
 * ModeEntryCS#6  "Mutation"
 * ModeEntryCS#7  "Transfert définitif"
