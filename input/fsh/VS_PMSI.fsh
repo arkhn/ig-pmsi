@@ -59,3 +59,8 @@ Description: "PMSI Mode d'entrée dans l'unité médicale"
 * ModeEntryCS#0  "Transfert provisoire"
 * ModeEntryCS#8  "Domicile"
 * ModeEntryCS#N  "Naissance"
+
+ValueSet: PSMIActeMedical
+Title: "Value Set PMSI Classification Actes Médicaux"
+Description: "PMSI Classification Commune des Actes Médicaux"
+* PMSICS#CCAM "Classification Commune des Actes Médicaux"
