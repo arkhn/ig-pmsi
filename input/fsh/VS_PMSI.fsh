@@ -3,8 +3,8 @@ Title: "PMSI diagnosis"
 Description: "Type de diagnostics pour le PMSI"
 * PMSICS#DP	"Diagnostic principal"
 * PMSICS#DR	"Diagnostic relié"
-* PMSICS#DASS	"Diagnostic asocié significatif" 
-* PMSICS#DASC	"Diagnostic asocié par convention" 
+* PMSICS#DASS	"Diagnostic associé significatif" 
+* PMSICS#DASC	"Diagnostic associé par convention" 
 // * include codes from system http://fhir.arkhn.com/finess
 
 
@@ -25,7 +25,7 @@ Description: "Type d'entrée à l'hôpital pour le PMSI"
 * EntryCS#73	"Par transfert depuis une unité de soins de longue durée"
 * EntryCS#74	"Par transfert depuis une unité de psychiatrie"
 * EntryCS#76	"Par transfert depuis une unité d'hospitalisation à domicile"
-* EntryCS#8	"Du domicile"
+* EntryCS#8 "Du domicile"
 * EntryCS#85	"Avec passage par le service d'accueil des urgences"
 * EntryCS#87	"D'une structure d'hébergement médico-sociale"
 
@@ -61,6 +61,6 @@ Description: "Différents modes d'entrée dans l'unité médicale à destination
 * ModeEntryCS#N  "Naissance"
 
 ValueSet: PSMIActeMedical
-Title: "Classification Commune Actes Médicaux"
+Title: "Classification Commune des Actes Médicaux"
 Description: "Classification Commune des Actes Médicaux (CCAM)"
 * PMSICS#CCAM "Classification Commune des Actes Médicaux"
