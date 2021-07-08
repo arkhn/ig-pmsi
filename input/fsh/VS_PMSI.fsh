@@ -9,7 +9,7 @@ Description: "Type de diagnostics pour le PMSI"
 
 
 ValueSet: PMSIMovementEntry
-Title: "PMSI type de mouvement d'entrée"
+Title: "Type de mouvement d'entrée"
 Description: "Type d'entrée à l'hôpital pour le PMSI"
 * EntryCS#1	"Retour prestation de soins dans une unité de soins de courte durée d'un autre établissement"
 * EntryCS#2	"Retour prestation de soins dans une unité de soins de suite et de réadaptation d'un autre établissement"
@@ -30,7 +30,7 @@ Description: "Type d'entrée à l'hôpital pour le PMSI"
 * EntryCS#87	"D'une structure d'hébergement médico-sociale"
 
 ValueSet: PMSIMovementExit
-Title: "PMSI type de mouvement de Sortie"
+Title: "Type de mouvement de sortie"
 Description: "Type de sorties à l'hôpital pour le PMSI"
 * ExitCS#1	"Pour prestation de soins dans une unité de soins de courte durée d'un autre établissement"
 * ExitCS#2	"Pour prestation de soins dans une unité de soins de suite et de réadaptation d'un autre établissement"
