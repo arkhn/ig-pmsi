@@ -1,8 +1,8 @@
 Profile:        PMSIEncounterRUM
 Parent:         Encounter
 Id:             pmsi-encounter-rum
-Title:          "Encounter RUM (PMSI)"
-Description:    "Profil pour la ressource encounter RUM du PMSI"
+Title:          "Encounter RUM"
+Description:    "Profil pour la ressource Encounter pour le Résumé d'Unité Médicale du PMSI"
 * identifier MS
 * class MS
 // codes from https://www.atih.sante.fr/codes-mouvements specifiying patient moves

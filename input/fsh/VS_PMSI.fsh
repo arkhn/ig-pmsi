@@ -1,6 +1,6 @@
 ValueSet: PMSIDiagnosis
 Title: "PMSI diagnosis"
-Description: "PMSI diagnosis codes"
+Description: "Type de diagnostics pour le PMSI"
 * PMSICS#DP	"Diagnostic principal"
 * PMSICS#DR	"Diagnostic relié"
 * PMSICS#DASS	"Diagnostic asocié significatif" 
@@ -10,7 +10,7 @@ Description: "PMSI diagnosis codes"
 
 ValueSet: PMSIMovementEntry
 Title: "PMSI type de mouvement d'entrée"
-Description: "PMSI codes pour le type de mouvement d'entrée'"
+Description: "Type d'entrée à l'hôpital pour le PMSI"
 * EntryCS#1	"Retour prestation de soins dans une unité de soins de courte durée d'un autre établissement"
 * EntryCS#2	"Retour prestation de soins dans une unité de soins de suite et de réadaptation d'un autre établissement"
 * EntryCS#3	"Retour prestation de soins dans une unité de soins de longue durée d'un autre établissement"
@@ -31,7 +31,7 @@ Description: "PMSI codes pour le type de mouvement d'entrée'"
 
 ValueSet: PMSIMovementExit
 Title: "PMSI type de mouvement de Sortie"
-Description: "PMSI codes pour le type de mouvement de Sortie"
+Description: "Type de sorties à l'hôpital pour le PMSI"
 * ExitCS#1	"Pour prestation de soins dans une unité de soins de courte durée d'un autre établissement"
 * ExitCS#2	"Pour prestation de soins dans une unité de soins de suite et de réadaptation d'un autre établissement"
 * ExitCS#3	"Pour prestation de soins dans une unité de soins de longue durée d'un autre établissement"
@@ -52,7 +52,7 @@ Description: "PMSI codes pour le type de mouvement de Sortie"
 
 
 ValueSet: PMSIModeEntryCS
-Title: "PMSI Mode d'entrée"
+Title: "Mode d'entrée à l'hôpital PMSI"
 Description: "PMSI Mode d'entrée dans l'unité médicale"
 * ModeEntryCS#6  "Mutation"
 * ModeEntryCS#7  "Transfert définitif"
@@ -61,6 +61,6 @@ Description: "PMSI Mode d'entrée dans l'unité médicale"
 * ModeEntryCS#N  "Naissance"
 
 ValueSet: PSMIActeMedical
-Title: "Value Set PMSI Classification Actes Médicaux"
-Description: "PMSI Classification Commune des Actes Médicaux"
+Title: "Classification Commune Actes Médicaux"
+Description: "Classification Commune des Actes Médicaux (CCAM)"
 * PMSICS#CCAM "Classification Commune des Actes Médicaux"
