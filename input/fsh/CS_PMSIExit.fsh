@@ -1,6 +1,6 @@
 CodeSystem: ExitCS
 Id: ExitCS
-Title: "Type de sortie"
+Title: "Type de sortie Code System"
 Description: "Code System de type de sorties de l'hôpital"
 
 * #1	"Pour prestation de soins dans une unité de soins de courte durée d'un autre établissement"

@@ -16,10 +16,11 @@ pour le domaine de la santé, séance du 14 juin 2001).» (source : 'https://www
 * identifier MS
 * category MS
 // Fix value Procedure Category: CCAM Classification Commune des Actes Médicaux
-//* category.coding.code = #CCAM
-//* category.coding.display = "Classification Commune de Actes Médicaux"
+
+
+* category.coding.code = #CCAM
+* category.coding.display = "Classification Commune de Actes Médicaux"
 * category ^short = "CCAM"
-* category from PSMIActeMedical (required)
 
 * code MS
 // Value set for Code : Code CCAM 
@@ -29,5 +30,5 @@ pour le domaine de la santé, séance du 14 juin 2001).» (source : 'https://www
 * subject MS
 // Reference to Patient resource
 * encounter MS
-//Reference to resource: résumé d'unité médicale (RUM)
+// Reference to resource: résumé d'unité médicale (RUM)
 * encounter only Reference (PMSIEncounterRUM)

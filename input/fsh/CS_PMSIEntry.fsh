@@ -1,6 +1,6 @@
 CodeSystem: EntryCS
 Id: EntryCS
-Title: "Type d'admission"
+Title: "Type d'admission Code System"
 Description: "Type d'admission à l'hôpital du Patient"
 
 * #1	"Retour prestation de soins dans une unité de soins de courte durée d'un autre établissement"

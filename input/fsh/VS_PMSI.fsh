@@ -1,5 +1,5 @@
 ValueSet: PMSIDiagnosis
-Title: "PMSI diagnosis"
+Title: "Type de diagnostic Value Set"
 Description: "Type de diagnostics pour le PMSI"
 * PMSICS#DP	"Diagnostic principal"
 * PMSICS#DR	"Diagnostic relié"
@@ -9,7 +9,7 @@ Description: "Type de diagnostics pour le PMSI"
 
 
 ValueSet: PMSIMovementEntry
-Title: "Type d'entrée"
+Title: "Type d'entrée Value Set"
 Description: "Type d'entrée à l'hôpital pour le PMSI"
 * EntryCS#1	"Retour prestation de soins dans une unité de soins de courte durée d'un autre établissement"
 * EntryCS#2	"Retour prestation de soins dans une unité de soins de suite et de réadaptation d'un autre établissement"
@@ -30,7 +30,7 @@ Description: "Type d'entrée à l'hôpital pour le PMSI"
 * EntryCS#87	"D'une structure d'hébergement médico-sociale"
 
 ValueSet: PMSIMovementExit
-Title: "Type de sortie"
+Title: "Type de sortie Value Set"
 Description: "Type de sorties à l'hôpital pour le PMSI"
 * ExitCS#1	"Pour prestation de soins dans une unité de soins de courte durée d'un autre établissement"
 * ExitCS#2	"Pour prestation de soins dans une unité de soins de suite et de réadaptation d'un autre établissement"
@@ -52,7 +52,7 @@ Description: "Type de sorties à l'hôpital pour le PMSI"
 
 
 ValueSet: PMSIModeEntryCS
-Title: "Mode d'entrée à l'hôpital"
+Title: "Mode d'entrée à l'hôpital Value Set"
 Description: "Différents modes d'entrée dans l'unité médicale à destination du PMSI."
 * ModeEntryCS#6  "Mutation"
 * ModeEntryCS#7  "Transfert définitif"
@@ -61,6 +61,6 @@ Description: "Différents modes d'entrée dans l'unité médicale à destination
 * ModeEntryCS#N  "Naissance"
 
 ValueSet: PSMIActeMedical
-Title: "Classification Commune des Actes Médicaux"
+Title: "Classification Commune des Actes Médicaux Value Set"
 Description: "Classification Commune des Actes Médicaux (CCAM)"
-* PMSICS#CCAM "Classification Commune des Actes Médicaux"
+* include codes from system CCAM
