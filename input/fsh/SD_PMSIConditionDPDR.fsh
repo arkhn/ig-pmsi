@@ -37,4 +37,5 @@ Description:    "Profil pour la ressource condition Diagnostic Principal / Diagn
 * encounter only Reference (PMSIEncounterRUM)
 
 * note MS
+* note ^short = "Donnée à visée documentaire (DAD)"
 // Optional can be used to store: Une donnée à visée documentaire (DAD) peut être n’importe quelle information : un chiffre, un code d’acte ou de diagnostic ou du langage naturel.

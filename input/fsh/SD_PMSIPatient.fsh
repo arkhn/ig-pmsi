@@ -39,11 +39,13 @@ Description:    "Profil pour la ressource Patient du PMSI"
 // systems from https://esante.gouv.fr/sites/default/files/media_entity/documents/asip_referentiel_identifiant_national_sante-liste-des-oid-des-autorites-d-affectation-des-ins_v0.1.pdf
 
 * name MS // Utilisé dans le cadre de l'identitovigilance pour vérifier l'identité d'une personne, en particulier le nom de naissance
+* name ^short = "Utilisé dans le cadre de l'identitovigilance pour vérifier l'identité d'une personne"
 
 * gender 1..1 MS // Obligatoire: utilisé dans le cadre de l'identitovigilance pour vérifier l'identité d'une personne
+* gender ^short = "Utilisé dans le cadre de l'identitovigilance pour vérifier l'identité d'une personne"
 * birthDate 1..1 MS // Obligatoire: Utilisé dans le cadre de l'identitovigilance pour vérifier l'identité d'une personne
+* birthDate ^short = "Utilisé dans le cadre de l'identitovigilance pour vérifier l'identité d'une personne"
 * address MS // Code postal, lieu de résidence
-
 
 * contact.telecom MS
 * communication.language MS
@@ -55,7 +57,6 @@ Description:    "Profil pour la ressource Patient du PMSI"
 // Slice TMP ?
 
 // A considérer : poids, taille, pathologies, traitements...
-
 
 // Sources : 
 // https://www.atih.sante.fr/sites/default/files/public/content/3695/formats_mco2020_5.xlsx
