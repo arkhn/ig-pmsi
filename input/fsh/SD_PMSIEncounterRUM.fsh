@@ -3,6 +3,7 @@ Parent:         Encounter
 Id:             pmsi-encounter-rum
 Title:          "Résumé d'Unité Médicale"
 Description:    "Profil pour la ressource Encounter pour le Résumé d'Unité Médicale du PMSI"
+* ^publisher = "Arkhn"
 * identifier MS
 * class MS
 // codes from https://www.atih.sante.fr/codes-mouvements specifiying patient moves

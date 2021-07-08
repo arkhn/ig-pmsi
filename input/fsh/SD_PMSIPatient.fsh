@@ -3,7 +3,7 @@ Parent:         Patient
 Id:             pmsi-patient
 Title:          "Patient PMSI"
 Description:    "Profil pour la ressource Patient du PMSI"
-
+* ^publisher = "Arkhn"
 
 * identifier MS // INS (NIR / NIA), 
 * identifier ^slicing.discriminator.type = #pattern
