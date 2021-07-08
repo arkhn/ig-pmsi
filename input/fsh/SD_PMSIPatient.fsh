@@ -1,7 +1,7 @@
 Profile:        PMSIPatient
 Parent:         Patient
 Id:             pmsi-patient
-Title:          "Patient (PMSI)"
+Title:          "Patient PMSI"
 Description:    "Profil pour la ressource Patient du PMSI"
 
 

@@ -1,7 +1,7 @@
 Profile:        PMSIOrganization
 Parent:         Organization
 Id:             pmsi-organization
-Title:          "Etablissement de santé (PMSI)"
+Title:          "Etablissement de santé"
 Description:    "Profil pour la ressource Organization du PMSI permettant de définir un établissement hospitalier."
 * ^publisher = "Arkhn"
 * identifier MS

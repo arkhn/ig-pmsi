@@ -1,7 +1,7 @@
 Profile:        PMSIProcedure
 Parent:         Procedure
 Id:             pmsi-procedure
-Title:          "Acte Médical (PMSI)"
+Title:          "Acte Médical"
 Description:    "Profil pour la ressource Procedure du PMSI permettant de définir les actes médicaux. 
 
 « Les actes médicaux décrits par la CCAM sont les actes professionnels relevant de la compétence

@@ -1,7 +1,7 @@
 Profile:        PMSIEncounterRUM
 Parent:         Encounter
 Id:             pmsi-encounter-rum
-Title:          "Encounter RUM"
+Title:          "Résumé d'Unité Médicale"
 Description:    "Profil pour la ressource Encounter pour le Résumé d'Unité Médicale du PMSI"
 * identifier MS
 * class MS
