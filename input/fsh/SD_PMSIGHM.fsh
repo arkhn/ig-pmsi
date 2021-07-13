@@ -1,15 +1,15 @@
 Profile:        PMSIGHM
 Parent:         Observation
-Id:             pmsi-grouped-homogene-maladesd-dpdr
+Id:             pmsi-groupe-homogene-malades
 Title:          "Groupes homogènes de Malades"
-Description:    "Profil pour la ressource Groupes Homogènes de Malades du PMSI"
+Description:    "Observation sur le Groupe Homogène de Malades (GHM) d'un patiens (PMSI)"
 
 * identifier MS
 //value= N° de Groupage
 
 
 * category MS
-// Code majeure de diagnostic: https://www.atih.sante.fr/manuel-des-ghm-version-11d
+// Code majeur de diagnostic: https://www.atih.sante.fr/manuel-des-ghm-version-11d
 * category ^definition = "Code from CMD for PMSI use defined by ATIH"
 * category from CMD (required)
 * category 1..1
