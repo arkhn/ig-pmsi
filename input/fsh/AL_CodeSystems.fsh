@@ -10,3 +10,5 @@ Alias:   PMSICS = http://fhir.arkhn.com/pmsi/CodeSystem/PMSICS
 Alias:   FINESS = http://fhir.arkhn.com/finess
 Alias:   ICD10FR = http://hl7.org/fhir/sid/icd-10-fr
 Alias:   CCAM = http://fhir.arkhn.com/ccam
+Alias:   GHM = http://fhir.arkhn.com/ghm
+Alias:   CMD = http://fhir.arkhn.com/cmd
