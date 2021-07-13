@@ -28,5 +28,5 @@ Description:    "Observation sur le Groupe Homogène de Malades (GHM) d'un patie
 
 * encounter MS
 //Reference to resource: résumé de sortie standardisé (RSS)
-//* encounter only Reference (PMSIEncounterRUM) //To be created!
+//* TODO:encounter only Reference (PMSIEncounterRUM) //To be created!
 

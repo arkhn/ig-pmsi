@@ -5,7 +5,8 @@ Title:          "Encounter RUM (PMSI)"
 Description:    "Profil pour la ressource encounter RUM du PMSI"
 * identifier MS
 * class MS
-// codes from https://www.atih.sante.fr/codes-mouvements specifiying patient moves
+* class from TypeEncounterCS (required)
+
 * type MS
 * type from PMSIModeEntryCS (required)
 

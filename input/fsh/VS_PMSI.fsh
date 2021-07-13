@@ -64,3 +64,11 @@ ValueSet: PSMIActeMedical
 Title: "Value Set PMSI Classification Actes Médicaux"
 Description: "PMSI Classification Commune des Actes Médicaux"
 * PMSICS#CCAM "Classification Commune des Actes Médicaux"
+
+
+ValueSet: TypeEncounterCS
+Title:  "Type d'encounter RSS ou RUM"
+Description: "Custom code from PMSI mode type d'encounter"
+
+* TypeEncounterCS#RUM "Résumé d'unité médicale"
+* TypeEncounterCS#RSS "Résumé de sortie standardisé"
