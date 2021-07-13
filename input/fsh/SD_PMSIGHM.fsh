@@ -1,7 +1,7 @@
 Profile:        PMSIGHM
 Parent:         Observation
 Id:             pmsi-groupe-homogene-malades
-Title:          "Groupes homogènes de Malades"
+Title:          "Observation Groupes homogènes de Malades (PMSI)"
 Description:    "Observation sur le Groupe Homogène de Malades (GHM) d'un patiens (PMSI)"
 
 * identifier MS
@@ -28,5 +28,5 @@ Description:    "Observation sur le Groupe Homogène de Malades (GHM) d'un patie
 
 * encounter MS
 //Reference to resource: résumé de sortie standardisé (RSS)
-//* TODO:encounter only Reference (PMSIEncounterRUM) //To be created!
+* encounter only Reference(PMSIEncounterRSS)
 

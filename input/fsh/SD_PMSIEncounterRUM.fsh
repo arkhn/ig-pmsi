@@ -32,4 +32,4 @@ Description:    "Profil pour la ressource encounter RUM du PMSI"
 * serviceProvider MS
 // Reference to location Unité Médical (UM)
 * partOf MS
-//TODO: Reference to resource encounter: résumé de sortie standardisé (RSS)
+* partOf only Reference(PMSIEncounterRSS)
