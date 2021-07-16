@@ -1,7 +1,7 @@
 CodeSystem: ExitCS
 Id: ExitCS
-Title: "PMSI patient hospital discharge source"
-Description: "Custom code from PMSI hospital discharge source"
+Title: "Type de sortie Code System"
+Description: "Code System de type de sorties de l'hôpital"
 
 * #1	"Pour prestation de soins dans une unité de soins de courte durée d'un autre établissement"
 * #2	"Pour prestation de soins dans une unité de soins de suite et de réadaptation d'un autre établissement"

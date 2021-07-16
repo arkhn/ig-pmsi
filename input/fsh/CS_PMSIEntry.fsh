@@ -1,7 +1,7 @@
 CodeSystem: EntryCS
 Id: EntryCS
-Title: "PMSI patient hospital admission source"
-Description: "Custom code from PMSI hospital admission source"
+Title: "Type d'admission Code System"
+Description: "Type d'admission à l'hôpital du Patient"
 
 * #1	"Retour prestation de soins dans une unité de soins de courte durée d'un autre établissement"
 * #2	"Retour prestation de soins dans une unité de soins de suite et de réadaptation d'un autre établissement"
