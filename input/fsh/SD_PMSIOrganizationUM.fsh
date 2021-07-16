@@ -2,12 +2,11 @@ Profile:        PMSIOrganizationUM
 Parent:         Organization
 Id:             pmsi-OrganizationUM
 Title:          "Unité médicale (PMSI)"
-Description:  "Profil pour la ressource OrganizationUM du PMSI"
+Description:  "Profil pour la ressource Organization du PMSI permettant de définir une unité médicale."
 * ^publisher = "Arkhn"
 * identifier MS // Définit par l'établissement
 * type MS
-* type ^definition = "The kind(s) of organization that this is." // Type d'autorisation
+* type ^definition = "Type of authorization."
 * type from AUTORIZATION_TYPE (required) // Nomenclature UM
 * partOf MS
-* partOf ^definition = "The organization of which this organization forms a part."
 * partOf only Reference (PMSIOrganization)
