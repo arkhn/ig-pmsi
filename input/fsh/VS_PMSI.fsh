@@ -1,16 +1,16 @@
 ValueSet: PMSIDiagnosis
-Title: "PMSI diagnosis"
-Description: "PMSI diagnosis codes"
+Title: "Type de diagnostic Value Set"
+Description: "Type de diagnostics pour le PMSI"
 * PMSICS#DP	"Diagnostic principal"
 * PMSICS#DR	"Diagnostic relié"
-* PMSICS#DASS	"Diagnostic asocié significatif" 
-* PMSICS#DASC	"Diagnostic asocié par convention" 
+* PMSICS#DASS	"Diagnostic associé significatif" 
+* PMSICS#DASC	"Diagnostic associé par convention" 
 // * include codes from system http://fhir.arkhn.com/finess
 
 
 ValueSet: PMSIMovementEntry
-Title: "PMSI movement Admission"
-Description: "PMSI patient movement (admission) codes"
+Title: "Type d'entrée Value Set"
+Description: "Type d'entrée à l'hôpital pour le PMSI"
 * EntryCS#1	"Retour prestation de soins dans une unité de soins de courte durée d'un autre établissement"
 * EntryCS#2	"Retour prestation de soins dans une unité de soins de suite et de réadaptation d'un autre établissement"
 * EntryCS#3	"Retour prestation de soins dans une unité de soins de longue durée d'un autre établissement"
@@ -25,13 +25,13 @@ Description: "PMSI patient movement (admission) codes"
 * EntryCS#73	"Par transfert depuis une unité de soins de longue durée"
 * EntryCS#74	"Par transfert depuis une unité de psychiatrie"
 * EntryCS#76	"Par transfert depuis une unité d'hospitalisation à domicile"
-* EntryCS#8	"Du domicile"
+* EntryCS#8 "Du domicile"
 * EntryCS#85	"Avec passage par le service d'accueil des urgences"
 * EntryCS#87	"D'une structure d'hébergement médico-sociale"
 
 ValueSet: PMSIMovementExit
-Title: "PMSI movement Sortie"
-Description: "PMSI patient movement (sortie) codes"
+Title: "Type de sortie Value Set"
+Description: "Type de sorties à l'hôpital pour le PMSI"
 * ExitCS#1	"Pour prestation de soins dans une unité de soins de courte durée d'un autre établissement"
 * ExitCS#2	"Pour prestation de soins dans une unité de soins de suite et de réadaptation d'un autre établissement"
 * ExitCS#3	"Pour prestation de soins dans une unité de soins de longue durée d'un autre établissement"
@@ -52,10 +52,15 @@ Description: "PMSI patient movement (sortie) codes"
 
 
 ValueSet: PMSIModeEntryCS
-Title: "PMSI Mode d'entré"
-Description: "PMSI Mode d'entrée dans l'unité médicale"
+Title: "Mode d'entrée à l'hôpital Value Set"
+Description: "Différents modes d'entrée dans l'unité médicale à destination du PMSI."
 * ModeEntryCS#6  "Mutation"
 * ModeEntryCS#7  "Transfert définitif"
 * ModeEntryCS#0  "Transfert provisoire"
 * ModeEntryCS#8  "Domicile"
 * ModeEntryCS#N  "Naissance"
+
+ValueSet: PSMIActeMedical
+Title: "Classification Commune des Actes Médicaux Value Set"
+Description: "Classification Commune des Actes Médicaux (CCAM)"
+* include codes from system CCAM

@@ -1,8 +1,8 @@
 Profile:        PMSIOrganization
 Parent:         Organization
 Id:             pmsi-organization
-Title:          "Etablissement de santé (PMSI)"
-Description:    "Profil pour la ressource organization du PMSI"
+Title:          "Etablissement de santé"
+Description:    "Profil pour la ressource Organization du PMSI permettant de définir un établissement hospitalier."
 * ^publisher = "Arkhn"
 * identifier MS
 // FINESS identifier : entité juridique, géographique, siret ... avec slices
@@ -14,17 +14,21 @@ Description:    "Profil pour la ressource organization du PMSI"
 * identifier contains
     FinessEJ 0..1 and
     FinessEG 0..1 
-* identifier[FinessEJ].type.text = "FINESS Juridique" // Binding URI Finess juridique
-* identifier[FinessEJ].system = "http://fhir.arkhn.com/FinessEJ"
-* identifier[FinessEG].type.text = "FINESS Géographique" // Binding URI Finess géographique
-* identifier[FinessEG].system = "http://fhir.arkhn.com/FinessEG"
+* identifier[FinessEJ].type.text = "FINESS Juridique" 
+* identifier[FinessEJ].system = "http://fhir.arkhn.com/FinessEJ" // Temporary, should be binded with URI finess juridique
+* identifier[FinessEG].type.text = "FINESS Géographique" 
+* identifier[FinessEG].system = "http://fhir.arkhn.com/FinessEG" // Temporary, should be binded with URI finess geographique
 
 * type MS
 * type ^definition = "The kind(s) of organization that this is."
-// https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/
+* type from CAT (required) 
+* type 1..1 
+
 * name MS
 * name ^definition = "A name associated with the organization."
 * telecom MS
 * telecom ^definition = "A contact detail for the organization."
 * address MS
 * address ^definition = "An address for the organization."
+* partOf MS
+* partOf ^definition = "The organization of which this organization forms a part."
