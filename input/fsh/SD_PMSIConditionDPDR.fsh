@@ -1,8 +1,9 @@
 Profile:        PMSIConditionDPDR
 Parent:         Condition
 Id:             pmsi-condition-dpdr
-Title:          "Diagnostic (PMSI)"
-Description:    "Profil pour la ressource condition Diagnostic Principal /Diagnostic Relié du PMSI"
+Title:          "Diagnostic"
+Description:    "Profil pour la ressource condition Diagnostic Principal / Diagnostic Relié du PMSI"
+* ^publisher = "Arkhn"
 * identifier MS
 * category MS
 // Value set Condition Category: Diagnostic Principal (DP), Diagnostic Relie (DR) ou Diagnostic Associé (DAS)
@@ -37,4 +38,5 @@ Description:    "Profil pour la ressource condition Diagnostic Principal /Diagno
 * encounter only Reference (PMSIEncounterRUM)
 
 * note MS
+* note ^short = "Donnée à visée documentaire (DAD)"
 // Optional can be used to store: Une donnée à visée documentaire (DAD) peut être n’importe quelle information : un chiffre, un code d’acte ou de diagnostic ou du langage naturel.

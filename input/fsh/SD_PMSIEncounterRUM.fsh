@@ -1,8 +1,9 @@
 Profile:        PMSIEncounterRUM
 Parent:         Encounter
 Id:             pmsi-encounter-rum
-Title:          "Encounter RUM (PMSI)"
-Description:    "Profil pour la ressource encounter RUM du PMSI"
+Title:          "Résumé d'Unité Médicale"
+Description:    "Profil pour la ressource Encounter pour le Résumé d'Unité Médicale du PMSI"
+* ^publisher = "Arkhn"
 * identifier MS
 * class MS
 * class from TypeEncounterCS (required)

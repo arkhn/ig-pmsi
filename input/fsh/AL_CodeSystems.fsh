@@ -14,3 +14,4 @@ Alias:   CCAM = http://fhir.arkhn.com/ccam
 Alias:   GHM = http://fhir.arkhn.com/ghm
 Alias:   CMD = http://fhir.arkhn.com/cmd
 Alias:   CAT = https://mos.esante.gouv.fr/NOS/TRE_R63-AgregatCategorieEtablissementNiv1
+Alias:   AUTORIZATION_TYPE =  http://fhir.arkhn.com/AuthorizationType
