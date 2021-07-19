@@ -34,7 +34,7 @@ Description:    "Profil pour la ressource condition Diagnostic Principal / Diagn
 * subject 1..1
 
 * encounter MS
-//Reference to resource: résumé de sortie standardisé (RSS) ou  (RUM)?
+//Reference to resource: résumé de sortie d'unité médicale (RUM)
 * encounter only Reference (PMSIEncounterRUM)
 
 * note MS

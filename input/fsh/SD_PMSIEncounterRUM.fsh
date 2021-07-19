@@ -6,7 +6,8 @@ Description:    "Profil pour la ressource Encounter pour le Résumé d'Unité M�
 * ^publisher = "Arkhn"
 * identifier MS
 * class MS
-// codes from https://www.atih.sante.fr/codes-mouvements specifiying patient moves
+* class from TypeEncounterCS (required)
+
 * type MS
 * type from PMSIModeEntryCS (required)
 
@@ -32,4 +33,4 @@ Description:    "Profil pour la ressource Encounter pour le Résumé d'Unité M�
 * serviceProvider MS
 // Reference to location Unité Médical (UM)
 * partOf MS
-//TODO: Reference to resource encounter: résumé de sortie standardisé (RSS)
+* partOf only Reference(PMSIEncounterRSS)
