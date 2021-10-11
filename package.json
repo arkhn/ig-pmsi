@@ -1,0 +1,7 @@
+{
+  "name": "ig-pmsi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:arkhn/ig-pmsi.git",
+  "license": "MIT"
+}
